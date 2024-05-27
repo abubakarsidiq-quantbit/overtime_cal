@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-15 12:06:34.605622",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "totid",
+  "totname",
+  "column_break_wn1vm",
+  "ot_hrs",
+  "ot_rate",
+  "otamount",
+  "column_break_kk4cb",
+  "normal_hrs",
+  "normal_rate",
+  "normal_hrs_amount",
+  "column_break_b9wsd",
+  "salary_advance",
+  "net_payble"
+ ],
+ "fields": [
+  {
+   "fieldname": "totid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "totname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "normal_hrs",
+   "fieldtype": "Float",
+   "label": "Normal Hrs",
+   "precision": "2"
+  },
+  {
+   "fieldname": "ot_hrs",
+   "fieldtype": "Float",
+   "label": "OT Hrs",
+   "precision": "2"
+  },
+  {
+   "fieldname": "normal_rate",
+   "fieldtype": "Float",
+   "label": "Normal Rate",
+   "precision": "2"
+  },
+  {
+   "fieldname": "normal_hrs_amount",
+   "fieldtype": "Float",
+   "label": "Normal Hrs Amount",
+   "precision": "2"
+  },
+  {
+   "fieldname": "salary_advance",
+   "fieldtype": "Float",
+   "label": "Salary Advance",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_wn1vm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kk4cb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_b9wsd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ot_rate",
+   "fieldtype": "Float",
+   "label": "Over Time Rate",
+   "precision": "2"
+  },
+  {
+   "fieldname": "net_payble",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Net Payable",
+   "precision": "2"
+  },
+  {
+   "fieldname": "otamount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "OT Amount",
+   "precision": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-16 16:51:22.009372",
+ "modified_by": "Administrator",
+ "module": "Overtime Cal",
+ "name": "Employee Total Overtime",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

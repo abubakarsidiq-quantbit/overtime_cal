@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-15 12:02:54.313869",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "otdate",
+  "otid",
+  "otname",
+  "shift",
+  "column_break_4s02e",
+  "checkin",
+  "checkout",
+  "present_hrs",
+  "column_break_dihxf",
+  "out_duty",
+  "break_time",
+  "total_hr",
+  "otexcluded",
+  "column_break_hdbfl",
+  "normal_hr",
+  "nrate",
+  "norhr_amount",
+  "column_break_udsin",
+  "ot_hrs",
+  "ot_rate",
+  "otamount",
+  "column_break_dj1pg",
+  "salary_advance",
+  "net_payble"
+ ],
+ "fields": [
+  {
+   "fieldname": "otdate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "otid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "otname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_4s02e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Data",
+   "label": "Shift"
+  },
+  {
+   "fieldname": "checkin",
+   "fieldtype": "Data",
+   "label": "CheckIn"
+  },
+  {
+   "fieldname": "checkout",
+   "fieldtype": "Data",
+   "label": "CheckOut"
+  },
+  {
+   "fieldname": "column_break_hdbfl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "normal_hr",
+   "fieldtype": "Float",
+   "label": "Normal Hr",
+   "precision": "2"
+  },
+  {
+   "fieldname": "ot_rate",
+   "fieldtype": "Float",
+   "label": "OT Rate",
+   "precision": "2"
+  },
+  {
+   "fieldname": "salary_advance",
+   "fieldtype": "Float",
+   "label": "Salary Advance",
+   "precision": "2"
+  },
+  {
+   "fieldname": "net_payble",
+   "fieldtype": "Float",
+   "label": "Net Payble",
+   "precision": "2"
+  },
+  {
+   "fieldname": "nrate",
+   "fieldtype": "Float",
+   "label": "Normal Rate",
+   "precision": "2"
+  },
+  {
+   "fieldname": "ot_hrs",
+   "fieldtype": "Float",
+   "label": "OT hrs",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_dj1pg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "norhr_amount",
+   "fieldtype": "Float",
+   "label": "Normal Hrs Amount",
+   "precision": "2"
+  },
+  {
+   "fieldname": "otamount",
+   "fieldtype": "Float",
+   "label": "OT Amount",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_udsin",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "present_hrs",
+   "fieldtype": "Data",
+   "label": "Present Hrs"
+  },
+  {
+   "fieldname": "column_break_dihxf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "break_time",
+   "fieldtype": "Data",
+   "label": "Break Time"
+  },
+  {
+   "fieldname": "out_duty",
+   "fieldtype": "Data",
+   "label": "Out Duty Hrs",
+   "precision": "2"
+  },
+  {
+   "fieldname": "total_hr",
+   "fieldtype": "Data",
+   "label": "Total Present Hr"
+  },
+  {
+   "fieldname": "otexcluded",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Overtime Excluded Hr"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-19 14:59:34.508522",
+ "modified_by": "Administrator",
+ "module": "Overtime Cal",
+ "name": "Employee Overtime Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

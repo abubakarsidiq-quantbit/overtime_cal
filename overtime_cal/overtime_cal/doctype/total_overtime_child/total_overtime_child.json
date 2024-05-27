@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-17 10:24:32.889097",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "totid",
+  "totname",
+  "tottot",
+  "totsalary"
+ ],
+ "fields": [
+  {
+   "fieldname": "totid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID"
+  },
+  {
+   "fieldname": "totname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "tottot",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Overtime"
+  },
+  {
+   "fieldname": "totsalary",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "OT Salary"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-21 12:30:15.404268",
+ "modified_by": "Administrator",
+ "module": "Overtime Cal",
+ "name": "Total Overtime Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

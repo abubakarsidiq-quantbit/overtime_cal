@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-07 11:31:40.875294",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "parent_department",
+  "fromdate",
+  "todate",
+  "salary",
+  "emp_salary"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "default": "Today",
+   "fieldname": "fromdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From"
+  },
+  {
+   "default": "2099-12-31",
+   "fieldname": "todate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To"
+  },
+  {
+   "fetch_from": "department.parent_department",
+   "fieldname": "parent_department",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Parent Department"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Link",
+   "label": "Salary",
+   "options": "Salary Structure Assignment"
+  },
+  {
+   "fetch_from": "salary.base",
+   "fieldname": "emp_salary",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Emp Salary"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-08 18:17:16.514609",
+ "modified_by": "Administrator",
+ "module": "Overtime Cal",
+ "name": "Tab Department Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

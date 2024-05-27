@@ -1,0 +1,4 @@
+# Copyright (c) 2023, Frappe Technologies Pvt. Ltd. and contributors
+# Copyright (c) 2023, by Abhishek Chougule developer.mrabhi@gmail.com
+
+# frappe -- https://github.com/frappe/frappe is installed via 'bench init'

@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}",
+ "creation": "2024-04-15 11:55:14.427473",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "column_break_y2bxn",
+  "date",
+  "section_break_t7z2c",
+  "select_all",
+  "employee_list",
+  "section_break_isdk6",
+  "from_date",
+  "column_break_pd8ly",
+  "to_date",
+  "section_break_zxpj6",
+  "overtimebtn",
+  "eodetails",
+  "download_file",
+  "section_break_wro6x",
+  "emptotal",
+  "download"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_y2bxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_t7z2c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "select_all",
+   "fieldtype": "Check",
+   "label": "Select All"
+  },
+  {
+   "fieldname": "employee_list",
+   "fieldtype": "Table",
+   "label": "Employee List",
+   "options": "Employee Child"
+  },
+  {
+   "fieldname": "section_break_isdk6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "column_break_pd8ly",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "section_break_zxpj6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overtimebtn",
+   "fieldtype": "Button",
+   "label": "Calculate Employee Overtime "
+  },
+  {
+   "fieldname": "eodetails",
+   "fieldtype": "Table",
+   "label": "Employee Overtime Details",
+   "options": "Employee Overtime Details"
+  },
+  {
+   "fieldname": "section_break_wro6x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "emptotal",
+   "fieldtype": "Table",
+   "label": "Employee Total Overtime",
+   "options": "Employee Total Overtime"
+  },
+  {
+   "fieldname": "download_file",
+   "fieldtype": "Button",
+   "label": "Download File"
+  },
+  {
+   "fieldname": "download",
+   "fieldtype": "Button",
+   "label": "Download"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-14 17:37:13.649922",
+ "modified_by": "Administrator",
+ "module": "Overtime Cal",
+ "name": "Employee Overtime Calculation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
